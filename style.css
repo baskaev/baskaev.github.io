@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 140px;
+    background-color:brown;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid black;
+}
+header nav{
+    width: 800px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    border-radius: 5px;
+}
+header div{
+    min-width: 150px;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header div a{
+    border-left: 5px solid black;
+    border-bottom: none;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    padding-left: 20;
+    transition-property: border-left, border-bottom;
+    transition-duration: 0.5s;
+}
+header div a:hover{
+    border-left: none;
+    border-bottom: 5px solid black;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    padding-left: 20;
+}
+
+
+header .logo{
+    border: 5px solid black;
+    text-transform: uppercase;
+    margin-left: 10%;
+    align-items: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 90px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 20px;
+    font-family:cursive;
+    background-color: black;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+header .logo:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+main{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main h1{
+    padding: 20px;
+}
+main h1 a{
+    text-decoration: none;
+    color:black;
+}
+main h1 a:hover{
+    color:blue;
+}
+
+footer{
+    margin-top: 100px;
+    width:100%;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+footer .copyright p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+footer .contact{
+    margin-left: 500px;
+}
+footer .contact a img{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}

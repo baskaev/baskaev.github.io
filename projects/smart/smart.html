@@ -8,6 +8,39 @@
 </head>
 <body>
     
-    
+    <header>
+        <div class="logo">Мерило Перемерило</div>
+        <div class="Stat">Поиск вещей по размеру</a></div>
+    </header>
+
+    <main>
+        <form id="userProfileForm">
+            <label for="height">Рост (см):</label>
+            <input type="number" id="height" name="height" required>
+            <label for="footSize">Размер стопы (см):</label>
+            <input type="number" id="footSize" name="footSize" required>
+            <button type="submit">Сохранить</button>
+        </form>
+        <div class="sett">
+            <div class="removeMyData">
+                <p>Удалить мои параметры</p>
+            </div>
+            <div class="showAllRightNow">
+                <p>Показать все</p>
+            </div>
+        </div>
+        
+        <div class="products">
+            <div class="grid-container">
+                <ul class="grid-list" id="grid-list">
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="smart.js"></script>
 </body>
 </html>

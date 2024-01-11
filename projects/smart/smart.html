@@ -14,13 +14,22 @@
     </header>
 
     <main>
-        <form id="userProfileForm">
-            <label for="height">Рост (см):</label>
-            <input type="number" id="height" name="height" required>
-            <label for="footSize">Размер стопы (см):</label>
-            <input type="number" id="footSize" name="footSize" required>
-            <button type="submit">Сохранить</button>
-        </form>
+        <div class="searchandfil">
+            <div class="search" style="height: 50px; width: 570px;  
+            margin-left:10%;
+            margin-top:1%; background-color: rgba(67, 67, 149, 0.796); padding: 15px; border-radius: 10px;" >
+                <input type="text" id="ItemName" style="width: 100%;" name="ItemName">
+                <div class="searchbtn"style="cursor: pointer; background-color: rgba(67, 67, 149, 0.796); margin-left: 10px; padding: 1%; font-size:30px; ">Поиск</div>
+            </div>
+            <form id="userProfileForm">
+                <label for="height">Рост (см):</label>
+                <input type="number" id="height" name="height" required>
+                <label for="footSize">Размер стопы (см):</label>
+                <input type="number" id="footSize" name="footSize" required>
+                <button type="submit">Сохранить</button>
+            </form>
+        </div>
+        
         <div class="sett">
             <div class="removeMyData">
                 <p>Удалить мои параметры</p>
